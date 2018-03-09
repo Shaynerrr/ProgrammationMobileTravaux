@@ -1,0 +1,91 @@
+body {
+	background-image:url(./Img/spiderman-comics-wallpaper-15.jpg);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+header {
+	font-family: 'Winter in Gotham', arial;
+	display:block;
+	height: 3em;
+	font-size:  40px;
+	text-align: center;
+	word-spacing: 15px;
+	margin-top:-2em;
+	
+}
+h2 {
+	font-family: 'Winter in Gotham', arial;
+	text-align:center;
+}
+
+li {
+	display : inline-block;
+}
+section {
+	 font-family: 'Winter in Gotham', arial;
+	 display : block;
+	 margin-left: -0.5em;
+     width: 21%;
+	 padding-bottom:2em;
+	 float:left;
+	 font-size: 20px;
+}	 
+
+aside {
+     display : block;
+     width: 60%;
+	 padding-bottom:2em;
+	 float:left;
+	 font-size: 20px;
+	 border:2px black;
+}
+ 
+footer {
+	font-family: 'Winter in Gotham', arial;
+	display : block;
+	color : white;
+	text-align:center;
+	border : 2px black;
+	background-color : black;
+    clear: both;
+	height: 2em;
+	}	
+	img {
+	display: inline-block;
+}
+img.bottom {
+    vertical-align: text-bottom;
+	width:85px;
+	height:85px; 
+	float:bottom-left;
+	margin-top: 1px;
+	border: none;
+    box-shadow: 0 1px 7px rgba(0,0,0,0.6);
+    -o-transform: scale(1,1); -ms-transform: scale(1,1); -moz-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1); -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;
+    position: relative; z-index: 999; -o-transform: scale(1.03,1.03); -ms-transform: scale(1.03,1.03); -moz-transform: scale(1.03,1.03); -webkit-transform: scale(1.03,1.03); transform: scale(1.03,1.03);
+}
+
+.shadow {
+	display:block;
+	background:rgba(0, 0,	0, 0.4);
+	height:30em;
+}
+
+
+/* Set a style for all buttons */
+button {
+    background-color: black;
+    color: white;
+    padding: 1px 1px;
+    border: none;
+    cursor: pointer;
+    width: 28%;
+}
+
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
