@@ -1,0 +1,70 @@
+<html>
+<script src="./Semaine8.js"></script>
+<h1>Exercice1</h1>
+	<head>
+<body>
+		<form method="get" onsubmit="return test(this, event)">
+			<fieldset>
+				<legend>Infos</legend>
+				<label for="username">Nom d'utilisateur: </label><input id="username" name="username" type="text" placeholder="ex: Bruno"/>
+				<label for="pwd">Mot de passe: </label><input id="pwd" name="pwd" type="password" placeholder="aPwD%4"/>
+				<label for="Prenom">Prenom </label><input id="Prenom" name="Prenom"/>
+				<label for="nom">Nom </label><input id="Nom" name="Nom"/>
+				<label for="Adresse">Adresse Couriel </label><input id="Adresse" name="Adresse"/>
+				<label for="Cell">Numero de telephone </label><input id="Cell" name="Cell"/>
+				<label for="birthday">Date de naissance: </label><input id="birthday" name="birthday" type="date"/>		
+          			
+			</fieldset>
+			<input id="resetBtn" type="reset" value="Reset"/>			
+			<input id="submitBtn" type="submit"/>
+			</form>
+			<form method="get" onsubmit="return test1(this, event)">
+			<fieldset>
+			<legend>connexion</legend>
+			    <label for="username">Nom d'utilisateur: </label><input id="username1" name="username1" type="text" placeholder="ex: Bruno"/>
+				<label for="pwd">Mot de passe: </label><input id="pwd1" name="pwd1" type="password" placeholder="aPwD%4"/>
+				<button> Envoyer </button>
+				</fieldset>
+				<input id="resetBtn" type="reset" value="Reset"/>			
+			   <input id="submitBtn" type="submit"/>
+			   </form>
+			   
+<h1>Exercice2</h1>
+	<head>
+<body>
+		<form method="get" onsubmit="return exercice2(this, event)">
+			<fieldset>
+				<legend>Console de jeu</legend>
+				<select name =" civilite" id ="Console">
+				<option value="xbox">Xbox-One</option>
+				<option value="ps4">Ps4</option>
+				<option value="pc">Pc</option>
+				</select>
+				
+				<select name =" civilite1" id="Couleur">
+				<option value="noir">Noir</option>
+				<option value="blanc">Blanc</option>
+				<option value="bleu">Bleu</option>
+				<select name =" civilite2" id="quantite">
+				<select>
+				<legend> quantite</legend>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				</select>
+				<label for="nom">Nom du Client :</label><input id="nom" name="Nom" placeholder="ex: Bruno Bouchard"/>
+				<label for="Adresse">Adresse Couriel:</label><input id="Adresse" name="Adresse"/>
+				<label for="Livraison">Adresse Domicile:</label><input id="Livraison" name="Cell"/>	
+			</fieldset>				
+          		
+			<input id="resetBtn" type="reset" value="Reset"/>			
+			<input id="submitBtn" type="submit"/>
+			</form>
+			<form method="get" onsubmit="return calculer(this, event)">
+			<fieldset>
+			<legend>Passer la commande</legend>
+			    <label for="prixini">Prix initial: </label><input id="Prixini" name="username1" type="text"/>
+				<label for="Taxes">Taxes: </label><input id="Taxes" name="Taxes" type="text"/>
+				<label for="SousTot">Sous-Total: </label><input id="SousTot" name="SousTot" type="text"/>
+
+			   </form>
