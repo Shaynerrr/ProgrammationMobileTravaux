@@ -1,0 +1,58 @@
+<html>
+<script src="./Lab8.js"></script>
+<h1>Exercice1</h1>
+	<head>
+<body>
+		<form method="get" onsubmit="return Initialiser(this, event)">
+			<fieldset>
+				<legend>Infos</legend>
+				<label for="id">Nom d'utilisateur: </label><input id="username" name="username" type="text" placeholder="ex: Bruno"/>
+				<label for="pwd">Mot de passe: </label><input id="pwd" name="pwd" type="password" placeholder="9Shots"/>
+				<label for="Prenom">Prenom </label><input id="name" name="name"/>
+				<label for="Nom">Nom </label><input id="lastname" name="lastname"/>
+				<label for="email">Adresse Couriel </label><input id="email" name="email"/>
+				<label for="cell">Numero de telephone </label><input id="cell" name="cell"/>
+				<label for="anniversaire">Date de naissance: </label><input id="Fete" name="Fete" type="date"/>		
+          			
+			</fieldset>
+			<input id="resetBtn" type="reset" value="Reset"/>			
+			<input id="submitBtn" type="submit"/>
+			</form>
+			<form method="get" onsubmit="return exercice1(this, event)">
+			<fieldset>			
+		    </form>
+			   
+<h1>Exercice2</h1>
+	<head>
+<body>
+		<form method="get" onsubmit="return Initialiser(this, event)">
+			
+			<fieldset>
+				<legend>Console de jeu</legend>
+				<select id="produit" name="produit" onchange="Prix()">
+				<option value="Xbox-one">Xbox-One</option>
+				<option value="Ps4">Ps4</option>
+				<option value="Pc">Pc</option>
+				</select>
+				
+				<label for="color">Couleur du produit: </label><input id="color" name="color" onchange="couleur()" type="color"/>
+				<label for="decimal">Decimal:</label><input id="decimal" name="decimal" onblur="Decimal()" type="text" placeholder="1"/>
+				<label for="Quantité">Quantité: </label><input id="Quantité" name="Quantité" onchange="Prix()" type="number"/>
+				<label for="NomduClient">Nom :</label><input id="nom" name="NomduClient" type="text" placeholder="ex: Bruno Bouchard"/>
+				<label for="EmailClient">Courriel :</label><input id="email2" name="EmailClient" type="text" onblur="confirmerEmail2()"  placeholder="ex: BrunoBouchard@gmail.com"/>
+				<label for="adresse">Addresse :</label><textarea id="adresse" name="adresse"></textarea>
+                <label>Sous-total: </label><input type="number" id="total" disabled/>
+				<label>Taxes: </label><input type="number" id="taxes" disabled/>
+				<label for="total">Total: </label><input id="soustotal" name="total" type="number" disabled/>				
+			</fieldset>				
+          		
+			<input id="resetBtn" type="reset" value="Reset"/>			
+			<input id="submitBtn" type="submit"/>
+			</form>
+			<form method="get" onsubmit="return Afficher(this, event)">
+			<fieldset>
+			<legend>Passer la commande</legend>
+			    <label for="total">Prix: </label><input id="total" name="total" type="text"/>
+				<label for="taxes">Taxes: </label><input id="taxes" name="taxes" type="text"/>
+				<label for="soustotal">Sous-Total: </label><input id="soustotal" name="soustotal" type="text"/>
+			</form>
